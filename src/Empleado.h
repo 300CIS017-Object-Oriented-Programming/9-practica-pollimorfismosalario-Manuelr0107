@@ -15,6 +15,8 @@ public:
     Empleado(std::string &nombre, double &salario);
 
     virtual double calcularSalario() = 0;
+    std::string getNombre() const {return nombre;}
+    double getSalario() const {return salario;}
 
 };
 

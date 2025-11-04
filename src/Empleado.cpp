@@ -1,5 +1,5 @@
-//
-// Created by ACER on 1/11/2025.
-//
-
 #include "Empleado.h"
+
+
+Empleado::Empleado(std::string &nombre, double &salario) : nombre(nombre), salario(salario) {}
+

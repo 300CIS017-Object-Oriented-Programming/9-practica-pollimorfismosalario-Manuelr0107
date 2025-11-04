@@ -7,12 +7,14 @@
 class Empleado {
 protected:
     std::string nombre;
-    int salario;
+    double salario;
 
 private:
 
 public:
-    virtual double calcularSalario = 0;
+    Empleado(std::string &nombre, double &salario);
+
+    virtual double calcularSalario() = 0;
 
 };
 

@@ -8,4 +8,8 @@ add_executable(9_practica_pollimorfismosalario_Manuelr0107 main.cpp
         src/Empleado.h
         src/EmpleadoJunior.cpp
         src/EmpleadoJunior.h
+        src/EmpleadoSenior.cpp
+        src/EmpleadoSenior.h
+        src/LiderTecnico.cpp
+        src/LiderTecnico.h
 )

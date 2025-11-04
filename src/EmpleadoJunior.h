@@ -8,11 +8,12 @@
 
 class EmpleadoJunior : public Empleado {
 public:
-    EmpleadoJunior(std::string nombre, int salario);
 
-    double calcularSalario() {
-        return salario;
-    }
+    EmpleadoJunior();
+
+    EmpleadoJunior(std::string nombre, double salario);
+
+    double calcularSalario()override;
 
 };
 
